@@ -23,10 +23,9 @@ Alternatively :
 
 ### Prerequisites
 
-Several standard packages are needed to build the toolchain.  On Ubuntu,
-executing the following command should suffice:
+在Ubuntu上配置k8s环境，先要安装docker,官方提供了安装脚本，在root模式下一条命令即可完成安装。
 
-    $ sudo apt-get install autoconf automake autotools-dev curl libmpc-dev libmpfr-dev libgmp-dev gawk build-essential bison flex texinfo gperf libtool patchutils bc zlib1g-dev libexpat-dev
+    $ curl -s https://get.docker.com/ | sudo sh
 
 On Fedora/CentOS/RHEL OS, executing the following command should suffice:
 
