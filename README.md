@@ -27,10 +27,15 @@ Alternatively :
 
     $ curl -s https://get.docker.com/ | sudo sh
 
-On Fedora/CentOS/RHEL OS, executing the following command should suffice:
+然后安装kubernetes，由于kubernetes部件所需的官方镜像在 http://gcr.io(Google Cloud Container Registry)上，该网站被墙了。先要用国内的一个镜像来替换掉官方景象就可以了。以Ubuntu为例，替换方法如下：
 
-    $ sudo yum install autoconf automake libmpc-devel mpfr-devel gmp-devel gawk  bison flex texinfo patchutils gcc gcc-c++ zlib-devel expat-devel
-
+    $ cat <<EOF >/etc/apt/sources.list.d/kubernetes.list
+    $ deb https://mirrors.aliyun.com/kubernetes/apt/ kubernetes-xenial main
+    $ EOF
+替换完整后执行下面两条命令：
+    $ apt-get update
+    $ apt-get install -y kubelet kubeadm kubectl
+    $ EOF
 On OS X, you can use [Homebrew](http://brew.sh) to install the dependencies:
 
     $ brew install gawk gnu-sed gmp mpfr libmpc isl zlib expat
