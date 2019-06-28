@@ -2,8 +2,7 @@
 ## Round 1
 第一轮我们先通过以有的一些问卷数据来验证众包平台的必要性。
 ### Questions
-![](img/user_validation_1-1.png)
-![](img/user_validation_1-2.png)
+![](img/1.png)
 ### Result Analysis 1
 ![](img/chart1.png)
 ![](img/chart2.png)
