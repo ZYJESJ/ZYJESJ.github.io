@@ -4,12 +4,8 @@
 ### Questions
 ![](img/1.png)
 ### Result Analysis 1
-![](img/chart1.png)
-![](img/chart2.png)
-![](img/chart3.png)
-![](img/chart4.png)
-![](img/chart5.png)
-![](img/chart6.png)
+![](img/2.png)
+![](img/3.png)
 
 * 从Q1-Q3可以看出大部分用户还是愿意参与一些众包项目，不管是将自已的任务发布给别人去完成，还是自已去完成别人的任务。
 * Q3-Q5显示用户更关心的是自已任务的开发进度以及帮忙开发人员的专业程度，所以平台应该要考虑辅助用户找到最合适的人选。
